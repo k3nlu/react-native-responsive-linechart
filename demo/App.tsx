@@ -4,8 +4,8 @@ import { StatusBar, Text, TouchableOpacity } from 'react-native'
 import { Chart, HorizontalAxis, VerticalAxis, Line, Area, Tooltip } from 'react-native-responsive-linechart'
 
 const App = () => {
-  const ref = React.useRef()
-  const ref2 = React.useRef()
+  const ref = React.useRef(undefined)
+  const ref2 = React.useRef(undefined)
 
   return (
     <Container>
